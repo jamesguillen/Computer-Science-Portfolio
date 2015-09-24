@@ -4,34 +4,262 @@
         <title>HardWare</title>
         </head>
         <style>
+            #title{
+                text-align:center;
+                color:white;
+            }
+            #go{
+                color:white;
+            }
+            #yolo{
+                text-align:center;
+                border:2px solid white;
+                padding:5px;
+                color:red;
+            }
+            #text{
+                color:white;
+                width:300px;
+                border:3px solid red;
+                position:absolute;
+                left:500px;
+                top:380px;
+                font-size:15px;
+            }
+            #intro{
+                color:white;
+            }
+            #about{
+                color:white;
+            }
+            #html{
+                color:white;
+            }
+            #hard{
+                color:white;
+            }
+            p{
+                color:black;
+            }
+          
+            
+     
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+         #motherboard{
+         	position:absolute;
+         	left:500px;
+         }  
+        body{background-color:orange;}
+   
+           #f1_container {
+  position: relative;
+  margin: 60px auto;
+  width: 300px;
+  height: 200px;
+  z-index: 1;
+  
+
+
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background-color:rgb(0, 255, 255);
+  
+}
+#board{
+  position:absolute;
+  color:white;
+  top:120px;
+  left:525px;
+  border:2px solid black;
+}
+  
+#chip{
+  position:absolute;
+  color:white;
+  top:380px;
+  left:525px;
+  border:2px solid black;
+  
+}
+#rum{
+  position:absolute;
+  color:white;
+  top:640px;
+  left:525px;
+  border:2px solid black;
+}
+#volvo{
+  position:absolute;
+  color:white;
+  top:900px;
+  left:525px;
+  border:2px solid black;
+}
+#surf_board{
+  position:absolute;
+  color:white;
+  top:1160px;
+  left:525px;
+  border:2px solid black;
+}
+#monitor{
+  position:absolute;
+  color:white;
+  bottom:-855px;
+  left:525px;
+  border:2px solid black;
+}
+#key{
+  position:absolute;
+  color:white;
+  bottom:-1114px;
+  left:525px;
+  border:2px solid black;
+}
+#mouse{
+  position:absolute;
+  color:white;
+  bottom:-1373px;
+  left:525px;
+  border:2px solid black;
+}
+    #moose{
+      font-size:15px;
+    }
             
             
             
         </style>
         <body>
+        	
             <p id="yolo"> <a href="intro.html" id="intro">Intro Page</a> <a href="aboutme.html" id="about">About Me</a> <a href="html.html" id="html">HTML</a> <a href="hardware.html" id="hard">HardWare</a></p>
-            <h1>Hardware</h1>
-    
+            <h1 id="title">Hardware</h1>
+            <div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img id="bus" src="https://classconnection.s3.amazonaws.com/641/flashcards/779641/jpg/pci_slot1317576964775.jpg" alt="The motherboard bus" width="250" height="200">
+  </div>
+  <div class="back face center">
+    <p> The motherboard bus connects components of a computer, such as the CPU, and connects it to the motherboard. A bus is the path through which a device sends its data so that it can communicate with the CPU and/or other devices.</p>
+  </div>
+</div>
+</div>
+<div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img id="cpu" src="http://www.custompc.ie/ekmps/shops/pctech/resources/Design/i5cpu.png" alt="The CPU" width="250" height="200">
+  </div>
+  <div class="back face center">
+    <p>The CPU is the brain of the computer. CPU is the most important element of a computer system. The CPU is responsible for interpreting and executing most of the commands from the computer's hardware and software.</p>
+
+  </div>
+</div>
+</div>
+ <div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="http://www.sony.com.au/microsite/laptop-guide/images/cpu/What_is_RAM.png" alt="The RAM" width="260">
+  </div>
+  <div class="back face center">
+    <p id="rad">RAM is an acronym for random access memory. RAM is the most common type of memory found in computers and printers. RAM is the computer component that boots your computer. RAM acts as an intermediate memory between the hard drive and CPU. We use RAM because RAM acts as a high speed storage for data the computer is currently working on. </p>
+  </div>
+</div>
+</div>
+ <div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="http://www.lorextechnology.com/images/products/HDD250GB/900x600/security-certified-HDD250GB-L1.png" alt="hard drive" width="300">
+  </div>
+  <div class="back face center">
+    <p>The hard drive is the place where everything is stored. If your hard drive is damaged you can lose all your of your documents, pictures, music, and videos.Hard drives were invented over 50 years ago and have been used in personal computers since the mid-1980s. Hard drives are efficient computer memory devices that uses simple magnetism to store information.</p>
+  </div>
+</div>
+</div>
+<div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="http://images.anandtech.com/doci/8582/MSI%20Z97%20G5%20Oblique%20Left.png" alt="The motherboard" width="300">
+  </div>
+  <div class="back face center">
+    <p>The motherboard is a printed circuit board that is the foundation of a computer, located at the bottom of the computer case. It distributes power to the CPU, RAM, and all other computer hardware components. Most importantly, there is a 'bus' located in the motherboard that allows hardware components to communicate with one another. </p>
+  </div>
+</div>
+</div>
+ 
+ <div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="http://images.clipartpanda.com/monitor-clipart-hghg.svg" alt="A computer monitor" width="290">
+  </div>
+  <div class="back face center">
+    <p>The monitor shows you graphic images as you work or play. The monitor also displays your cursor (pointing device) and shows where it is and what the mouse is hovering over. The monitor is the visual interface that allows computer users to see open programs and use applications, such as Web browsers and software programs.</p>
+  </div>
+</div>
+</div>
+ 
+ <div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="https://revelsystems.com/wp-content/uploads/2015/02/pos-hw-apple-keyboard.png" alt="A keyboard" width="330">
+  </div>
+  <div class="back face center">
+    <p>Keyboards are one of the primary input devices. A keyoard is like a set of typewriter-like keys that enable you to enter data into other devices and into a computer. Christopher Sholes was an American inventor who invented the first practical typewriter and the QWERTY keyboard.   </p>
+  </div>
+  
+</div>
+</div>
+		</div>
+	</div>
+</div>
+<div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="http://res.freestockphotos.biz/thumbs/15/15220-illustration-of-a-blue-computer-mouse-th.png" alt="A computer mouse" width="220">
+  </div>
+  <div class="back face center">
+    <p id="moose">A mouse is a input device that is mostly used with desktop computers and sometimes laptops if you aren't certain on how to use the touch pad. A mouse is a pointing device that detects two-dimensional motion relative to a surface. There are two types of mice and they work differently, either using the rolling rubber ball(in a ball-type mouse) or by bouncing a light off your desk(in an optical mouse).  </p>
+  </div>
+</div>
+</div>
+<h3 id="board">Bus</h3>
+<h3 id="chip">CPU</h3>
+<h3 id="rum">RAM</h3>
+<h3 id="volvo">Hard Drive</h3>
+<h3 id="surf_board">Motherboard</h3>
+<h3 id="monitor">Monitor</h3>
+<h3 id="key">Keyboard</h3>
+<h3 id="mouse">Mouse</h3>
             
+    
+
             
             
         
-            
+          <br><br><br><br><br><a id="go" href="index.html">{- go back</a>  
         </body>
 </html>
     

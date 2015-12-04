@@ -34,6 +34,7 @@ function doMath() {
         answer = Math.pow(parseInt(input1.value), parseInt(input2.value));
         display.innerHTML = answer;
     }
+    //This function finds the square of a number
     if(dropdown.value == "sqrt"){
         answer = Math.sqrt(parseInt(input1.value));
         display.innerHTML = answer;

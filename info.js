@@ -6,7 +6,7 @@ var info1 = document.getElementById("info1");
 var info2 = document.getElementById("info2");
 //Once this photo is clicked it gives 3 fun facts about Horned Lizards
 item1.addEventListener("click", function(){
-    info1.innerHTML = "<u><a>Horned Lizard Facts</a></u><li> Have the ability to squirt blood out of their eyes</li> <li>Have round flat bodies to be able to blend in with the ground</li> <li>Can camoflauge into the sand</li>"
+    info1.innerHTML = "<u><a>Horned Lizard Facts</a></u><li> Have the ability to squirt blood out of their eyes</li> <li>Have round flat bodies to be able to blend in with the ground</li> <li>Can camoflauge into the sand</li>";
     
 
 });
